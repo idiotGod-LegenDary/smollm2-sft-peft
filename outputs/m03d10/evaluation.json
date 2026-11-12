@@ -1,0 +1,253 @@
+{
+  "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "adapter_dir": "outputs\\m03d09\\adapter",
+  "device": "cpu",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 8
+  },
+  "data": {
+    "sizes": {
+      "train": 12,
+      "valid": 3,
+      "test": 12
+    },
+    "class_counts": {
+      "train": {
+        "billing": 4,
+        "technical": 4,
+        "account": 4
+      },
+      "valid": {
+        "billing": 1,
+        "technical": 1,
+        "account": 1
+      },
+      "test": {
+        "billing": 4,
+        "technical": 4,
+        "account": 4
+      }
+    },
+    "overlap": []
+  },
+  "base": {
+    "samples": 12,
+    "correct": 0,
+    "accuracy": 0.0,
+    "macro_f1": 0.0,
+    "invalid_count": 12,
+    "per_class": {
+      "billing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "technical": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "account": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      }
+    },
+    "confusion": {
+      "billing": {
+        "billing": 0,
+        "technical": 0,
+        "account": 0,
+        "INVALID": 4
+      },
+      "technical": {
+        "billing": 0,
+        "technical": 0,
+        "account": 0,
+        "INVALID": 4
+      },
+      "account": {
+        "billing": 0,
+        "technical": 0,
+        "account": 0,
+        "INVALID": 4
+      }
+    }
+  },
+  "lora": {
+    "samples": 12,
+    "correct": 0,
+    "accuracy": 0.0,
+    "macro_f1": 0.0,
+    "invalid_count": 12,
+    "per_class": {
+      "billing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "technical": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "account": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      }
+    },
+    "confusion": {
+      "billing": {
+        "billing": 0,
+        "technical": 0,
+        "account": 0,
+        "INVALID": 4
+      },
+      "technical": {
+        "billing": 0,
+        "technical": 0,
+        "account": 0,
+        "INVALID": 4
+      },
+      "account": {
+        "billing": 0,
+        "technical": 0,
+        "account": 0,
+        "INVALID": 4
+      }
+    }
+  },
+  "base_seconds": 5.944407900002261,
+  "lora_seconds": 6.296270099999674,
+  "cases": [
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The receipt lists two payments although I only purchased once.",
+      "gold": "billing",
+      "base_raw": "The ticket is categorized as a billing ticket",
+      "base_prediction": null,
+      "lora_raw": "The ticket is categorized as a billing ticket",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: How do I obtain a tax invoice for last quarter?",
+      "gold": "billing",
+      "base_raw": "You can classify the support ticket as follows",
+      "base_prediction": null,
+      "lora_raw": "You can classify the support ticket as follows",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The annual plan price on my statement differs from checkout.",
+      "gold": "billing",
+      "base_raw": "The support ticket is categorized as \"B",
+      "base_prediction": null,
+      "lora_raw": "The support ticket is categorized as billing.",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I canceled the plan but another payment was processed.",
+      "gold": "billing",
+      "base_raw": "The ticket is categorized as a billing ticket",
+      "base_prediction": null,
+      "lora_raw": "The ticket is categorized as a billing ticket",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The desktop application refuses to start after the last patch.",
+      "gold": "technical",
+      "base_raw": "The support ticket is categorized as \"Technical",
+      "base_prediction": null,
+      "lora_raw": "The support ticket is categorized as \"Technical",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The export button produces a blank file.",
+      "gold": "technical",
+      "base_raw": "The support ticket is categorized as billing.",
+      "base_prediction": null,
+      "lora_raw": "The support ticket is categorized as billing.",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: Search requests fail with an internal server error.",
+      "gold": "technical",
+      "base_raw": "The support ticket is categorized as \"Search",
+      "base_prediction": null,
+      "lora_raw": "The support ticket is categorized as \"Search",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: My audio keeps stuttering even on a stable connection.",
+      "gold": "technical",
+      "base_raw": "The support ticket is categorized as:\n",
+      "base_prediction": null,
+      "lora_raw": "The support ticket is categorized as:\n",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I lost access to the recovery email for my profile.",
+      "gold": "account",
+      "base_raw": "I'm sorry for the inconvenience, but",
+      "base_prediction": null,
+      "lora_raw": "I lost access to the recovery email for",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: Could you help transfer my profile to a new email?",
+      "gold": "account",
+      "base_raw": "I'm sorry for the misunderstanding, but",
+      "base_prediction": null,
+      "lora_raw": "You are a helpful AI named Smol",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: Two-factor verification codes no longer arrive when I sign in.",
+      "gold": "account",
+      "base_raw": "Two-factor verification codes no longer arrive",
+      "base_prediction": null,
+      "lora_raw": "Two-factor verification codes no longer arrive",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    },
+    {
+      "instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I want to deactivate my user profile and remove personal information.",
+      "gold": "account",
+      "base_raw": "You can deactivate your user profile and",
+      "base_prediction": null,
+      "lora_raw": "You can deactivate your user profile and",
+      "lora_prediction": null,
+      "base_correct": false,
+      "lora_correct": false
+    }
+  ],
+  "limitations": "人工构造的12条独立测试样本；只进行两步LoRA训练；结果不能代表真实业务泛化能力。"
+}

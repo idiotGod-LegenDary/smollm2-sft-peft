@@ -1,0 +1,12 @@
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The receipt lists two payments although I only purchased once.","response":"billing"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: How do I obtain a tax invoice for last quarter?","response":"billing"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The annual plan price on my statement differs from checkout.","response":"billing"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I canceled the plan but another payment was processed.","response":"billing"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The desktop application refuses to start after the last patch.","response":"technical"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The export button produces a blank file.","response":"technical"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: Search requests fail with an internal server error.","response":"technical"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: My audio keeps stuttering even on a stable connection.","response":"technical"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I lost access to the recovery email for my profile.","response":"account"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: Could you help transfer my profile to a new email?","response":"account"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: Two-factor verification codes no longer arrive when I sign in.","response":"account"}
+{"instruction":"Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I want to deactivate my user profile and remove personal information.","response":"account"}
