@@ -1,0 +1,12 @@
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: My credit card was charged twice for the same order.", "response": "billing"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: Please send me a copy of the invoice for April.", "response": "billing"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The refund still has not arrived on my statement.", "response": "billing"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: Can you explain the extra subscription fee this month?", "response": "billing"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The mobile app crashes whenever I open settings.", "response": "technical"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The website shows error 502 after I click submit.", "response": "technical"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The file upload stops at ninety percent.", "response": "technical"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I cannot connect to the server after the update.", "response": "technical"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I need to change the email address on my profile.", "response": "account"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: My login password reset link has expired.", "response": "account"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: How can I delete my account permanently?", "response": "account"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I was locked out after too many sign-in attempts.", "response": "account"}

@@ -1,0 +1,7 @@
+# 建议 Python 3.10+。先按自己系统安装合适版本的 PyTorch。
+# 使用相对稳定的 Transformers 4.x / PEFT 组合，避免 5.x API 变动。
+transformers>=4.55,<5
+peft>=0.16,<0.19
+accelerate>=1.0,<2
+safetensors>=0.4
+pytest>=8,<10

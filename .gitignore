@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# 训练产物：Adapter 权重、tokenizer 副本、reload 参考张量体积较大，不入库
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# outputs/ 默认全部忽略，但保留小型、可重复生成、可独立核对的证据 JSON。
+# 注意：negation 必须先重新包含父目录，否则 git 不会进入被忽略的目录。
+outputs/*
+!outputs/m03d09/
+outputs/m03d09/*
+!outputs/m03d09/metrics.json
+!outputs/m03d10/
+outputs/m03d10/*
+!outputs/m03d10/evaluation.json

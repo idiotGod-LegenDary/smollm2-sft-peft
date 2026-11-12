@@ -1,0 +1,3 @@
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: There is an unexplained charge on my latest bill.", "response": "billing"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: The dashboard keeps freezing when I search.", "response": "technical"}
+{"instruction": "Classify the support ticket into billing, technical, or account. Reply with one category only. Ticket: I want to update the phone number linked to my account.", "response": "account"}
